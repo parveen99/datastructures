@@ -11,11 +11,7 @@ class Linkedlist:
         while(tempo):
             print(tempo.data)
             tempo=tempo.next
-    def insertfront(self,data):
-        
-        new_node=Node(data)
-        new_node.next=self.head
-        self.head=new_node
+    
 
 
 
@@ -30,11 +26,7 @@ list1.head.next=sec
 sec.next=third
 third.next=fourth
 fourth.next=fifth
-print("Before insertion at front")
 list1.printlist()
 
-print("After insertion at front")
 
-list1.insertfront(6)
-list1.printlist()
     
